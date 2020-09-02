@@ -1,0 +1,18 @@
+{
+    "noiseDim": 128,
+    "labelDim": 1,
+    "epochGAN": 500,
+    "epochSIM": 1000,
+    "batchSize": 64,
+    "genLr": 0.00002,
+    "disLr": 0.00002,
+    "simBeta1": 0.5,
+    "simBeta2": 0.999,
+    "genBeta1": 0.5,
+    "genBeta2": 0.999,
+    "disBeta1": 0.5,
+    "disBeta2": 0.999,
+    "simThreshold": 0.022,
+    "nCritic": 1,
+    "lambda_for_GP": 10
+}
